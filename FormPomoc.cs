@@ -1,28 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace NavigatorTero
 {
-    public abstract class AIndexGenerator
+    public partial class FormHelp : Form
     {
-        public enum Direction
+        public FormHelp()
         {
 
         }
 
-        public enum MatrixSize
+        private void buttonZamknij_Click(object sender, EventArgs e)
         {
 
-        };
-
-
-        protected Point middlePoint = new Point(0, 0);
-
-
-        protected Point BorderSizeXY;
+        }
     }
 }

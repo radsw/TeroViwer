@@ -7,22 +7,16 @@ using System.Threading.Tasks;
 
 namespace NavigatorTero
 {
-    public abstract class AIndexGenerator
+    public class Tools
     {
-        public enum Direction
+        public static Color getLowerColor(Color clr, int val)
         {
 
         }
 
-        public enum MatrixSize
+        public static Color getUpperColor(Color clr, int val)
         {
 
-        };
-
-
-        protected Point middlePoint = new Point(0, 0);
-
-
-        protected Point BorderSizeXY;
+        }
     }
 }

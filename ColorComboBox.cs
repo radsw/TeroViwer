@@ -4,25 +4,20 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace NavigatorTero
 {
-    public abstract class AIndexGenerator
+    public class ColorComboBox : ComboBox
     {
-        public enum Direction
+        public ColorComboBox()
         {
 
         }
 
-        public enum MatrixSize
+        private void ColorComboBox_DrawItem(object sender, DrawItemEventArgs e)
         {
-
-        };
-
-
-        protected Point middlePoint = new Point(0, 0);
-
-
-        protected Point BorderSizeXY;
+			
+        }
     }
 }
